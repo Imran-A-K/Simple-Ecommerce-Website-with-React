@@ -1,9 +1,15 @@
 import React from 'react'
+import Cart from '../Cart/Cart'
 
 const Orders = () => {
   return (
-    <div>
+    <div className='shop-container'>
+      <div className='products-container'>
         <h2>Orders page</h2>
+      </div>
+      <div className='cart-container'>
+        <Cart cart={[]}></Cart>
+      </div>
     </div>
   )
 }
